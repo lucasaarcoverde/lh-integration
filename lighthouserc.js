@@ -1,7 +1,9 @@
 module.exports = {
   ci: {
     collect: {
-      staticDistDir: "./packages/lh-app/public",
+      url: ["http://localhost:3000"],
+      startServerCommand: "yarn start",
+      numberOfRuns: 1,
     },
     upload: {
       target: "temporary-public-storage",
