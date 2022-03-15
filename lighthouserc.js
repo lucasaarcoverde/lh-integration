@@ -1,7 +1,10 @@
 module.exports = {
   ci: {
     collect: {
-      url: ["http://localhost:4000"],
+      url: [
+        "http://localhost:4000",
+        "https://gentle-lowlands-17553.herokuapp.com",
+      ],
       startServerCommand: "yarn prod",
       numberOfRuns: 1,
     },
