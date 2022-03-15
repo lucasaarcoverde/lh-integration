@@ -16,6 +16,7 @@
     "start": "yarn workspace lh-app start",
     "build": "yarn workspace lh-app build",
     "test": "yarn workspace lh-app test",
-    "eject": "yarn workspace lh-app eject"
+    "eject": "yarn workspace lh-app eject",
+    "prod": "yarn workspace lh-app prod"
   }
 }
