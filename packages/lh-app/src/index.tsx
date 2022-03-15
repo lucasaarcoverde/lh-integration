@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createSystem } from '@vtex/admin-ui'
+
+const [SystemProvider] = createSystem({ key: 'lh-integration' })
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SystemProvider>
+      <App />
+    </SystemProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
