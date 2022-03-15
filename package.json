@@ -2,6 +2,11 @@
   "name": "lh-integration",
   "version": "0.1.0",
   "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "dependencies": {},
   "scripts": {
     "start": "yarn workspace lh-app start",
