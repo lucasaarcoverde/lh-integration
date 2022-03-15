@@ -8,6 +8,10 @@
     ]
   },
   "dependencies": {},
+  "engines": {
+    "yarn": "^1.17.3",
+    "node": ">=14.0.0"
+  },
   "scripts": {
     "start": "yarn workspace lh-app start",
     "build": "yarn workspace lh-app build",
