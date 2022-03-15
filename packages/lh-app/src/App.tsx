@@ -18,7 +18,7 @@ function App() {
         >
           Learn React
         </a>
-        <button>click here</button>
+        <button>click here.</button>
       </header>
     </div>
   );
