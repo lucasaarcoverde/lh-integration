@@ -1,0 +1,12 @@
+{
+  "name": "lh-integration",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "start": "yarn workspace lh-app start",
+    "build": "yarn workspace lh-app build",
+    "test": "yarn workspace lh-app test",
+    "eject": "yarn workspace lh-app eject"
+  }
+}
