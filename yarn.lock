@@ -1277,24 +1277,12 @@
   resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
   integrity sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==
 
-"@emotion/is-prop-valid@^0.8.2":
-  version "0.8.8"
-  resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
-  integrity sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==
-  dependencies:
-    "@emotion/memoize" "0.7.4"
-
 "@emotion/is-prop-valid@^1.1.0":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-1.1.2.tgz#34ad6e98e871aa6f7a20469b602911b8b11b3a95"
   integrity sha512-3QnhqeL+WW88YjYbQL5gUIkthuMw7a0NGbZ7wfFVk2kg/CK5w8w5FFa0RzWjyY1+sujN0NWbtSHH6OJmWHtJpQ==
   dependencies:
     "@emotion/memoize" "^0.7.4"
-
-"@emotion/memoize@0.7.4":
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.4.tgz#19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
-  integrity sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==
 
 "@emotion/memoize@^0.7.4", "@emotion/memoize@^0.7.5":
   version "0.7.5"
@@ -1628,7 +1616,7 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@popperjs/core@^2.5.4":
+"@popperjs/core@^2.11.2", "@popperjs/core@^2.5.4":
   version "2.11.4"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.4.tgz#d8c7b8db9226d2d7664553a0741ad7d0397ee503"
   integrity sha512-q/ytXxO5NKvyT37pmisQAItCFqA7FD/vNb8dgaJy3/630Fsc+Mz9/9f2SziBoIZ30TJooXyTwZmhi1zjXmObYg==
@@ -2122,7 +2110,7 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@vtex/admin-ui-core@^0.6.0":
+"@vtex/admin-ui-core@^0.6.2":
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/@vtex/admin-ui-core/-/admin-ui-core-0.6.2.tgz#7044662e648c7c474418b36a99f372d0aa4a975f"
   integrity sha512-UqYH6N1Fui0iLcPMl7wpEdIqQ9tPezvRlfjgk597Y8QkpTCyuy/LPMPxO0eSfUN+geUx1kDhWnE3wHGZ4Qw2lQ==
@@ -2130,7 +2118,7 @@
     "@vtex/admin-ui-util" "^0.2.1"
     csstype "3.0.10"
 
-"@vtex/admin-ui-hooks@^0.2.0":
+"@vtex/admin-ui-hooks@^0.2.1":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@vtex/admin-ui-hooks/-/admin-ui-hooks-0.2.2.tgz#6d9ce0d2657524a7489839488f094f153f6ac4b7"
   integrity sha512-k5/7PSaloYZUwi0KQ5X1nXn4EOfdKiFS4Wwyxdh6umtIZz4BnrF7Cukmj7Ko/HBs6f7k7Iy91HjfG/Td/rsC1A==
@@ -2138,7 +2126,7 @@
     "@vtex/admin-ui-util" "^0.2.2"
     use-debounce "^7.0.0"
 
-"@vtex/admin-ui-react@^0.6.0":
+"@vtex/admin-ui-react@^0.6.4":
   version "0.6.7"
   resolved "https://registry.yarnpkg.com/@vtex/admin-ui-react/-/admin-ui-react-0.6.7.tgz#338938520f56a17589415fabe197dd16cfc2b3c3"
   integrity sha512-CchOKjdPxbbrkXDT+eRJbwXGX1FKYqyfPChnZ9A1Y42E3gFE2SMM6iVOPWwRtA7NSfInD57XOciXObPcZBbm1A==
@@ -2158,24 +2146,24 @@
   dependencies:
     deepmerge "4.2.2"
 
-"@vtex/admin-ui@0.119.0":
-  version "0.119.0"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui/-/admin-ui-0.119.0.tgz#90ea5e328e3a470c1ada5f6e2195227390ce3078"
-  integrity sha512-2gmc9z4xMiPD4eIkCzfW9qDDpQ0qVFUz/tffF6Ovf7hLIMhJXz7bno+M8/fg6eyW6y6+PK63Ij1RprJ++pngrA==
+"@vtex/admin-ui@0.119.6":
+  version "0.119.6"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-ui/-/admin-ui-0.119.6.tgz#7e95775f4373172d30d1f1570a740e401063ff25"
+  integrity sha512-uX/hZOtjZ0z6rteJwTitpXSGlmQtAyEC2q9bCoKWSc/XeZGWNZKb81W1DnEGbnRpw1v0AEunBFv7FKsX/MVnSg==
   dependencies:
     "@emotion/babel-plugin" "^11.2.0"
     "@emotion/css" "^11.1.3"
     "@emotion/react" "^11.1.5"
     "@react-aria/i18n" "^3.3.5"
     "@react-aria/spinbutton" "^3.0.3"
-    "@vtex/admin-ui-core" "^0.6.0"
-    "@vtex/admin-ui-hooks" "^0.2.0"
-    "@vtex/admin-ui-react" "^0.6.0"
-    "@vtex/phosphor-icons" "0.2.5"
+    "@vtex/admin-ui-core" "^0.6.2"
+    "@vtex/admin-ui-hooks" "^0.2.1"
+    "@vtex/admin-ui-react" "^0.6.4"
+    "@vtex/phosphor-icons" "0.2.6"
+    ariakit "2.0.0-alpha.19"
     csstype "3.0.10"
     date-fns "^2.28.0"
     downshift "^6.0.6"
-    framer-motion "^2.9.4"
     react-collapsed "^3.3.0"
     react-device-detect "^1.15.0"
     react-is "^17.0.1"
@@ -2184,10 +2172,10 @@
     tiny-warning "^1.0.3"
     use-debounce "^7.0.0"
 
-"@vtex/phosphor-icons@0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@vtex/phosphor-icons/-/phosphor-icons-0.2.5.tgz#fdbfc54b3d7a2278353934fca3f4b08bff9ee1c4"
-  integrity sha512-dRx96Kb7IVnYqYbHrvFD9KgNyupscCDyOpn2mcwHzm2qDvxz2AEOQlkc8BRoQQNM/vWvQqmPYx30wmyAtqWpzw==
+"@vtex/phosphor-icons@0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@vtex/phosphor-icons/-/phosphor-icons-0.2.6.tgz#9c01481f3d66ccff9c0051a0387b9abc09d2ad3c"
+  integrity sha512-gZyoxD9TdjXa3oav0Txda4t+U+AL5S4AznubQ9E35URLfA0pRxwWd5XOFG7WRXkoBa5uFDcq2vnTo91FVKvsbg==
   dependencies:
     tiny-invariant "^1.1.0"
 
@@ -2578,6 +2566,19 @@ aria-query@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/aria-query/-/aria-query-5.0.0.tgz#210c21aaf469613ee8c9a62c7f86525e058db52c"
   integrity sha512-V+SM7AbUwJ+EBnB8+DXs0hPZHO0W6pqBcc0dW90OwtVG02PswOu/teuARoLQjdDOH+t9pJgGnW5/Qmouf3gPJg==
+
+ariakit-utils@^0.17.0-alpha.12:
+  version "0.17.0-alpha.12"
+  resolved "https://registry.yarnpkg.com/ariakit-utils/-/ariakit-utils-0.17.0-alpha.12.tgz#3c50bebdc8cd0e2045ae00dc289a336c948aa6bb"
+  integrity sha512-zvLYC2kNCofxdMrlWff4fnEQZO8tiveyLME/YPiWQja/oRxoGigPc/Es33d8/iHePbG3sRJsGZ4diAnB+nE4Nw==
+
+ariakit@2.0.0-alpha.19:
+  version "2.0.0-alpha.19"
+  resolved "https://registry.yarnpkg.com/ariakit/-/ariakit-2.0.0-alpha.19.tgz#ccf219319b1cf3046f47c222f32d47a3009cb99c"
+  integrity sha512-4jgcjo3dEjcMphDaYk/neIe0whEHIQTm+RiraeiKo8vp+vV3dHcajMPhJ76N2+bpX2xkAcbwKhVP8La4ssgQHA==
+  dependencies:
+    "@popperjs/core" "^2.11.2"
+    ariakit-utils "^0.17.0-alpha.12"
 
 arity-n@^1.0.4:
   version "1.0.4"
@@ -5462,26 +5463,6 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-framer-motion@^2.9.4:
-  version "2.9.5"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-2.9.5.tgz#bbb185325d531c57f494cf3f6cf7719fc2c225c7"
-  integrity sha512-epSX4Co1YbDv0mjfHouuY0q361TpHE7WQzCp/xMTilxy4kXd+Z23uJzPVorfzbm1a/9q1Yu8T5bndaw65NI4Tg==
-  dependencies:
-    framesync "^4.1.0"
-    hey-listen "^1.0.8"
-    popmotion "9.0.0-rc.20"
-    style-value-types "^3.1.9"
-    tslib "^1.10.0"
-  optionalDependencies:
-    "@emotion/is-prop-valid" "^0.8.2"
-
-framesync@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/framesync/-/framesync-4.1.0.tgz#69a8db3ca432dc70d6a76ba882684a1497ef068a"
-  integrity sha512-MmgZ4wCoeVxNbx2xp5hN/zPDCbLSKiDt4BbbslK7j/pM2lg5S0vhTNv1v8BCVb99JPIo6hXBFdwzU7Q4qcAaoQ==
-  dependencies:
-    hey-listen "^1.0.5"
-
 fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
@@ -5851,11 +5832,6 @@ hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
-
-hey-listen@^1.0.5, hey-listen@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/hey-listen/-/hey-listen-1.0.8.tgz#8e59561ff724908de1aa924ed6ecc84a56a9aa68"
-  integrity sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==
 
 hmac-drbg@^1.0.1:
   version "1.0.1"
@@ -8596,16 +8572,6 @@ pnp-webpack-plugin@1.5.0:
   dependencies:
     ts-pnp "^1.1.2"
 
-popmotion@9.0.0-rc.20:
-  version "9.0.0-rc.20"
-  resolved "https://registry.yarnpkg.com/popmotion/-/popmotion-9.0.0-rc.20.tgz#f3550042ae31957b5416793ae8723200951ad39d"
-  integrity sha512-f98sny03WuA+c8ckBjNNXotJD4G2utG/I3Q23NU69OEafrXtxxSukAaJBxzbtxwDvz3vtZK69pu9ojdkMoBNTg==
-  dependencies:
-    framesync "^4.1.0"
-    hey-listen "^1.0.8"
-    style-value-types "^3.1.9"
-    tslib "^1.10.0"
-
 portfinder@^1.0.25:
   version "1.0.28"
   resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.28.tgz#67c4622852bd5374dd1dd900f779f53462fac778"
@@ -10953,14 +10919,6 @@ style-loader@1.0.0:
     loader-utils "^1.2.3"
     schema-utils "^2.0.1"
 
-style-value-types@^3.1.9:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-3.2.0.tgz#eb89cab1340823fa7876f3e289d29d99c92111bb"
-  integrity sha512-ih0mGsrYYmVvdDi++/66O6BaQPRPRMQHoZevNNdMMcPlP/cH28Rnfsqf1UEba/Bwfuw9T8BmIMwbGdzsPwQKrQ==
-  dependencies:
-    hey-listen "^1.0.8"
-    tslib "^1.10.0"
-
 stylehacks@^4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/stylehacks/-/stylehacks-4.0.3.tgz#6718fcaf4d1e07d8a1318690881e8d96726a71d5"
@@ -11232,7 +11190,7 @@ ts-pnp@^1.1.2:
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
   integrity sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==
 
-tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.8.1, tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
