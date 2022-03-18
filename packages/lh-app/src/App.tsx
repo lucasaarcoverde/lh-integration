@@ -156,7 +156,7 @@ function App() {
         <TopbarStart>
           <Set spacing={3}>
             <Button variant="adaptative-dark" icon={<IconActivity />} />
-            <Text variant="action1">dpsppinheiros</Text>
+            <Text>dpsppinheiros</Text>
           </Set>
         </TopbarStart>
         <TopbarEnd>
