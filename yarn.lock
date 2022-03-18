@@ -2191,25 +2191,15 @@
     "@typescript-eslint/types" "5.15.0"
     eslint-visitor-keys "^3.0.0"
 
-"@vtex/admin-illustrations@^0.1.3":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-illustrations/-/admin-illustrations-0.1.3.tgz#f482ebdc7e4f0d27142cfb96f4eadcd456dfd94c"
-  integrity sha512-bsxGFgONB1488StQz4AaAvoO2AK9wNVhszGv4RWnKY2VMGByjMreBK3mrlfRDKybfE2ZlsxI1HhR4NhtPg4anA==
-
-"@vtex/admin-ui-core@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-core/-/admin-ui-core-0.3.0.tgz#b4dbabaf8b138be7ed0a43c44d8b89166cfee9ac"
-  integrity sha512-J6bN7HK4JeExNo3L+JrzF6KULYLzPXDSBI1t+7Jy8/NjqMwuZJ6ZgrEbwFfO6pSFOBXk5d4g0UXrZa3dJ4+TZQ==
+"@vtex/admin-ui-core@^0.5.0":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-core/-/admin-ui-core-0.5.1.tgz#b4089dceb21a478d11144380d3ae824a8b4ddf83"
+  integrity sha512-DZrX2C3dj7uiMJPiFdA2N+vBZUgm9pob6S5W8YdmJSKnWGdS5pHdH5Gvg9NwTmf2MckaBR5Pd9nsMOnqF8bloA==
   dependencies:
-    "@vtex/admin-ui-util" "^0.1.2"
-    csstype "^3.0.5"
-    deepmerge "^4.2.2"
-    focus-visible "^5.1.0"
-    react-helmet "6.1.0"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
+    "@vtex/admin-ui-util" "^0.1.3"
+    csstype "3.0.10"
 
-"@vtex/admin-ui-hooks@^0.1.3":
+"@vtex/admin-ui-hooks@^0.1.4":
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/@vtex/admin-ui-hooks/-/admin-ui-hooks-0.1.4.tgz#04808fdbe334051f0f3a9270ac30726c6a258e3c"
   integrity sha512-i73TFQ/Vzoqw72z62Z9iqfd+t7YkHcZV24XvNFOqku9Qys8uYaaH6FHC+NYC8g/pcKYhhmFa28ZV7hMNGV9X2g==
@@ -2217,18 +2207,20 @@
     "@vtex/admin-ui-util" "^0.1.3"
     use-debounce "^7.0.0"
 
-"@vtex/admin-ui-react@^0.4.0":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-react/-/admin-ui-react-0.4.1.tgz#5becbd4fbe97a66609f7ce7ce4329bd2c8c2804c"
-  integrity sha512-sFFZf2KMLLShCfFeVzLomDJEbMh5aD8SQW5TNxA+Cp1Li37Kvqydn96ZhYX6Nh4TxgIF8yodFYcQQTSgxpcJ5Q==
+"@vtex/admin-ui-react@^0.5.0":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-ui-react/-/admin-ui-react-0.5.3.tgz#a06dda6c05530abd65f971a15aa1cf14518fb73c"
+  integrity sha512-2l2L2bY4jN6MOsFrzcovifrpy7jI8eqga/hxIF/+WctR4xBCqLk6VhB5CEXJvZAAPsFORpODokCUtmvpQw331A==
   dependencies:
     "@emotion/is-prop-valid" "^1.1.0"
-    "@vtex/admin-ui-util" "^0.1.2"
+    "@vtex/admin-ui-util" "^0.1.3"
+    focus-visible "^5.2.0"
+    react-helmet "^6.1.0"
     react-is "^17.0.2"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
 
-"@vtex/admin-ui-util@^0.1.2", "@vtex/admin-ui-util@^0.1.3":
+"@vtex/admin-ui-util@^0.1.3":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@vtex/admin-ui-util/-/admin-ui-util-0.1.3.tgz#9fb1da041adad29727ddf8d4537db1831f140f75"
   integrity sha512-hyn9qeycGnRLChJiVFMkAaSOvl41+Y+kOsC9aGd79J1bJOJzKNdc7PrDslW+rpBBx8rnyrC2qfgTXCGs1R9peg==
@@ -2238,25 +2230,21 @@
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
 
-"@vtex/admin-ui@0.116.0":
-  version "0.116.0"
-  resolved "https://registry.yarnpkg.com/@vtex/admin-ui/-/admin-ui-0.116.0.tgz#0300edaff047b8ab6053f80364af83b7e697ad5a"
-  integrity sha512-apyiOmqHfD5FyieAVX4NkcWz1KR8ZtZ1FmypklE1svJ2MTl4tR76E26e4knqsOF3deMgyQgg3LafIvXrUEQDuA==
+"@vtex/admin-ui@0.118.0":
+  version "0.118.0"
+  resolved "https://registry.yarnpkg.com/@vtex/admin-ui/-/admin-ui-0.118.0.tgz#f6a6db4f9482cea68888e52d40cc4a0208102de9"
+  integrity sha512-V9GSQYan3z4srJC9E7qqRSlj6BrEZO9P6JiY+0d/oti7B+lW3ZZJDsxEIyvzxVDwxRhwPH6c6EG05hvR9I0KDQ==
   dependencies:
     "@emotion/babel-plugin" "^11.2.0"
     "@emotion/css" "^11.1.3"
     "@emotion/react" "^11.1.5"
-    "@vtex/admin-illustrations" "^0.1.3"
-    "@vtex/admin-ui-core" "^0.3.0"
-    "@vtex/admin-ui-hooks" "^0.1.3"
-    "@vtex/admin-ui-react" "^0.4.0"
-    "@vtex/phosphor-icons" "^0.2.0"
-    csstype "^3.0.5"
-    deepmerge "^4.2.2"
+    "@vtex/admin-ui-core" "^0.5.0"
+    "@vtex/admin-ui-hooks" "^0.1.4"
+    "@vtex/admin-ui-react" "^0.5.0"
+    "@vtex/phosphor-icons" "0.2.2"
+    csstype "3.0.10"
     downshift "^6.0.6"
-    focus-visible "^5.1.0"
     framer-motion "^2.9.4"
-    polished "^3.6.7"
     react-device-detect "^1.15.0"
     react-is "^17.0.1"
     reakit "^1.3.5"
@@ -2265,10 +2253,10 @@
     tiny-warning "^1.0.3"
     use-debounce "^7.0.0"
 
-"@vtex/phosphor-icons@^0.2.0":
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/@vtex/phosphor-icons/-/phosphor-icons-0.2.6.tgz#9c01481f3d66ccff9c0051a0387b9abc09d2ad3c"
-  integrity sha512-gZyoxD9TdjXa3oav0Txda4t+U+AL5S4AznubQ9E35URLfA0pRxwWd5XOFG7WRXkoBa5uFDcq2vnTo91FVKvsbg==
+"@vtex/phosphor-icons@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@vtex/phosphor-icons/-/phosphor-icons-0.2.2.tgz#3d31ce92d5b977ac83394f8a2002adbde08837d3"
+  integrity sha512-//OET6ezTBOgoRPXCgYrybARhRrrTAgRQoypEle3Gp3FUE8FWtL2lwkUy7AHKJ40kR3WhehA8Y7QkHJiAzbygg==
   dependencies:
     tiny-invariant "^1.1.0"
 
@@ -3654,7 +3642,12 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
-csstype@^3.0.2, csstype@^3.0.5:
+csstype@3.0.10:
+  version "3.0.10"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.10.tgz#2ad3a7bed70f35b965707c092e5f30b327c290e5"
+  integrity sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==
+
+csstype@^3.0.2:
   version "3.0.11"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.11.tgz#d66700c5eacfac1940deb4e3ee5642792d85cd33"
   integrity sha512-sa6P2wJ+CAbgyy4KFssIb/JNMLxFvKF1pCYCSXS8ZMuqZnMsrxqI2E5sPyoTpxoPU/gVZMzr2zjOfg8GIZOMsw==
@@ -4634,7 +4627,7 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.5.tgz#76c8584f4fc843db64702a6bd04ab7a8bd666da3"
   integrity sha512-WIWGi2L3DyTUvUrwRKgGi9TwxQMUEqPOPQBVi71R96jZXJdFskXEmf54BoZaS1kknGODoIGASGEzBUYdyMCBJg==
 
-focus-visible@^5.1.0:
+focus-visible@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/focus-visible/-/focus-visible-5.2.0.tgz#3a9e41fccf587bd25dcc2ef045508284f0a4d6b3"
   integrity sha512-Rwix9pBtC1Nuy5wysTmKy+UjbDJpIfg8eHjw0rjZ1mX4GNLz1Bmd16uDpI3Gk1i70Fgcs8Csg2lPm8HULFg9DQ==
@@ -6825,13 +6818,6 @@ pkg-up@^3.1.0:
   dependencies:
     find-up "^3.0.0"
 
-polished@^3.6.7:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/polished/-/polished-3.7.2.tgz#ec5ddc17a7d322a574d5e10ddd2a6f01d3e767d1"
-  integrity sha512-pQKtpZGmsZrW8UUpQMAnR7s3ppHeMQVNyMDKtUyKwuvDmklzcEyM5Kllb3JyE/sE/x7arDmyd35i+4vp99H6sQ==
-  dependencies:
-    "@babel/runtime" "^7.12.5"
-
 popmotion@9.0.0-rc.20:
   version "9.0.0-rc.20"
   resolved "https://registry.yarnpkg.com/popmotion/-/popmotion-9.0.0-rc.20.tgz#f3550042ae31957b5416793ae8723200951ad39d"
@@ -7609,7 +7595,7 @@ react-fast-compare@^3.1.1:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
 
-react-helmet@6.1.0:
+react-helmet@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-6.1.0.tgz#a750d5165cb13cf213e44747502652e794468726"
   integrity sha512-4uMzEY9nlDlgxr61NL3XbKRy1hEkXmKNXhjbAIOVw5vcFrsdYbH2FEwcNyWvWinl103nXgzYNlns9ca+8kFiWw==
